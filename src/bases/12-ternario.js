@@ -1,5 +1,5 @@
 const activo = true;
-/*
+
 let mensaje = '';
 
 if(!activo){
@@ -7,10 +7,10 @@ if(!activo){
 }else{
     mensaje = 'Inactivo';
 }
-*/
+
 
 //const mensaje = (!activo) ? 'Activo' : 'Inactivo';
 //const mensaje = (!activo) ? 'Activo' : null;
-const mensaje = !activo && 'Activo';
+//const mensaje = !activo && 'Activo';
 
 console.log(mensaje);
